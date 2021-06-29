@@ -72,12 +72,8 @@ q = len(queries)
 
 # Perform queries
 for i in range(q):
-	print(performQueries(queries[i][0],
-						queries[i][1],
-						prefix))
-	
-# This code is contributed
-# by mohit kumar
+	print(performQueries(queries[i][0],queries[i][1],prefix))
+
 ''' output:
 3
 1'''
